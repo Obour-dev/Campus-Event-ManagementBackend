@@ -47,3 +47,6 @@ This is the backend server for the Campus Events platform. It provides RESTful A
 
 ### Local Setup
 1. Clone the repository
+
+### Backend Deployment Link
+https://campus-event-managementbackend.onrender.com
