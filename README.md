@@ -48,6 +48,13 @@ This is the backend server for the Campus Events platform. It provides RESTful A
 ### Local Setup
 1. Clone the repository
 
+### Available Scripts
+- `npm run dev`: Starts the development server with hot-reload
+- `npm start`: Runs the production server
+- `npm test`: Runs the test suite
+- `npm run build`: Creates a production build
+- `npm run lint`: Runs ESLint for code quality
+
 ### Backend Deployment Link
 https://campus-event-managementbackend.onrender.com
 
