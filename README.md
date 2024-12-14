@@ -50,3 +50,29 @@ This is the backend server for the Campus Events platform. It provides RESTful A
 
 ### Backend Deployment Link
 https://campus-event-managementbackend.onrender.com
+
+## API Endpoint Documentation
+
+### Authentication Endpoints
+
+#### Register User
+![Register API](./Endpoints/register.png)
+*POST /api/auth/register - Create a new user account*
+
+#### Login User
+![Login API](./Endpoints/signin.png)
+*POST /api/auth/login - Authenticate user and receive JWT token*
+
+### Event Management Endpoints
+
+#### Create Event
+![Create Event API](./Endpoints/createevent.png)
+*POST /api/events/create - Create a new event (Admin only)*
+
+#### Get All Events
+![Get Events API](./Endpoints/fetchEvents.png)
+*GET /api/events - Retrieve all events with optional filters*
+
+#### Delete Event
+![Delete Event API](./Endpoints/deleteEvents.png)
+*DELETE /api/events/:id - Remove an event (Admin only)*
